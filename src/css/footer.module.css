@@ -1,0 +1,156 @@
+.main
+{
+    width: 100%;
+    height: 80vh;
+    background: #232F3E;
+}
+.backBtn
+{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background: #37475A;
+    text-transform: none;
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: white;  
+    border: none;
+}
+.backBtn:hover
+{
+    background: #485769;
+}
+.parentDiv
+{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 7vw;
+}
+.childDiv
+{
+    width: 15%;
+    height: 80%;
+}
+.childDivException
+{
+    width: 18%;
+    height: 80%;
+}
+.heading
+{
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: white;
+    display: block;
+}
+.marginUp
+{
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    display: block;
+}
+.link
+{
+    text-decoration: none;
+    color: #DDDDDD;  
+}
+.link:hover
+{
+    text-decoration: underline;
+}
+.divider
+{
+    background: #3A4553;
+}
+.lowerFooter
+{
+    margin-top: 1%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo
+{
+    height: 2rem;
+    width: 5rem;
+    margin-right: 4rem;
+}
+.subDiv1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.iconDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 2rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 8rem;
+    font-size: 0.9rem;
+    color: #DDDDDD;
+    border: 1px solid #848688;
+    border-radius: 0.3rem;
+}
+.text
+{
+    font-size: 0.9rem;
+    color: #DDDDDD;
+    margin-left: 1rem;
+}
+.popover
+{
+    padding: 1rem;
+    background: white;
+    width: 12vw;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    box-shadow: 0.5px 0.5px 5px 0px grey;
+}
+.onHover
+{
+    color: #444444;
+    font-size: 0.9rem;
+}
+.onHover:hover
+{
+    color: #C7511F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.subDiv2
+{
+    width: 80%;
+    height: 50%;
+}
+.linkText
+{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+.linkTextCustom
+{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    width: 6rem;
+    margin-top: -1rem;
+}
+.linkTextCustom1
+{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    width: 8rem;
+}
+.alignRightItems
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}

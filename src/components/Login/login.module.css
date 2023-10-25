@@ -1,0 +1,138 @@
+.upperDiv
+{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding-bottom: 1rem;
+}
+.image
+{
+    width: 8.2rem;
+    height: 2.6rem;
+}
+.formDiv
+{
+    height: 20rem;
+    width: 19rem;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 0.1rem solid rgba(148, 148, 148, 0.5);
+    border-radius: 0.3rem;
+}
+.label
+{
+    font-weight: bold;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+}
+.input
+{
+    width: 18.5rem;
+    height: 1.5rem;
+    border: 0.1rem solid #949494;
+    margin: 0.3rem 0 0.7rem 0;
+    padding: 0.2rem;
+    font-size: 0.85rem;
+    border-radius: 0.2rem;
+    outline: none;
+}
+.input:focus
+{
+    box-shadow: 0 0 0.2rem 0.1rem #D18637 ;
+    border: 1px solid orange;
+}
+.input::placeholder
+{
+    font-size: 0.85rem;
+}
+.heading
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.submitBtn
+{
+    background: linear-gradient(to bottom,#F7DDA0,#F0C14B);
+    border: 0.1rem solid #A88734;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    width: 19rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+.submitBtn:hover
+{
+    background: linear-gradient(to top,#EEB934,#F4D485);
+}
+.conditions
+{
+    font-size: 0.8rem;
+    margin: 1.5rem 0;
+};
+.link
+{
+    text-decoration: none;
+    color: #0066C0;
+    font-size: 0.8rem;
+}
+.link:hover
+{
+    color: #C45500;
+    text-decoration: underline;
+}
+.divider
+{
+    width: 23rem;
+    font-size: 0.8rem;
+    color: #767676;
+    padding: 0;
+}
+.createNewAccountbutton
+{
+    width: 23rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+    border: 0.1rem solid #8D9096;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background: linear-gradient(to top,#E7E9EC,#FBFCFD);
+}
+.createNewAccountbutton:hover
+{
+    background: linear-gradient(to top,#DADDE2,#F5F7F9);
+}
+.lowerDiv
+{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 1rem;
+    height: 5rem;
+    border-top: 0.15rem solid #d9d7d7;
+}
+.footerConditionsDiv
+{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.copyright
+{
+    font-size: 0.75rem;
+    color: #555555;
+    margin-top: 0.5rem;
+};
+.errormessage {
+    color: #ff0000;
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+  }
