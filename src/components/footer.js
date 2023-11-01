@@ -8,28 +8,31 @@ import GlobalStyles from '@mui/material/GlobalStyles';
 import Container from '@mui/material/Container';
 
 const footers = [
-    {
-        title: 'Company',
-        description: ['Team', 'History', 'Contact us', 'Locations'],
-    },
-    {
-        title: 'Features',
-        description: [
-        'Cool stuff',
-        'Random feature',
-        'Team feature',
-        'Developer stuff',
-        'Another one',
-        ],
-    },
-    {
-        title: 'Resources',
-        description: ['Resource', 'Resource name', 'Another resource', 'Final resource'],
-    },
-    {
-        title: 'Legal',
-        description: ['Privacy policy', 'Terms of use'],
-    },
+  {
+      title: 'Get to Know Us',
+      description: ['Careers', 'Blog', 'About Amazon', 'Investor Relations', 'Amazon Devices','Amazon Science'],
+  },
+  {
+      title: 'Make Money with Us',
+      description: [
+      'Sell products on Amazon',
+      'Sell on Amazon Business',
+      'Sell apps on Amazon',
+      'Become an Affiliate',
+      'Advertise Your Products',
+      'Self-Publish with Us',
+      'Host an Amazon Hub',
+      'See More Make Money with Us'
+      ],
+  },
+  {
+      title: 'Amazon Payment Products',
+      description: ['Amazon Business Card', 'Shop with Points ', 'Reload Your Balance', 'Amazon Currency Converter'],
+  },
+  {
+      title: 'Let Us Help You',
+      description: ['Amazon and COVID-19', 'Your Account','Your Orders','Shipping Rates & Policies','Returns & Replacements','Manage Your Content and Devices','Amazon Assistant','Help'],
+  },
 ];
 
 const defaultTheme = createTheme();
